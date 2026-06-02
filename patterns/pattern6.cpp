@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+void pattern(int n)
+{
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n-i+1;j++)
+        {
+            cout<<j;
+        }
+        cout<<endl;
+    }
+}
+int main()
+{
+    int N;
+    cout<<" Enter the value of N : ";
+    cin>>N;
+    pattern(N);
+    return 0;
+}
